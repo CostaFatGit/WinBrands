@@ -1,0 +1,7 @@
+pdf_filename,order_form_number,customer_name,customer_address,subscription_term_start_date,subscription_term_months,capacity_currency,capacity_amount,credit_discount_percent,sales_representative,billing_address,billing_email,total_capacity_fees_currency,total_capacity_fees_amount,capacity_payment_terms,on_demand_payment_terms,capacity_billing_frequency,on_demand_billing_frequency,edition,cloud_provider,region,capacity_credit_price_currency,capacity_credit_price,capacity_storage_currency,capacity_storage_price,capacity_storage_tier,docu_sign_envelope_id
+CV 2025 Snowflake agreement.pdf,Q-453700,Costa Vida - Main Account,"1333 South Valley Grove Way, Ste 500
+Pleasant Grove, Utah 84062
+United States",2024-11-30,12,USD,60000.0,6.0,Spencer Cameron,"Costa Vida
+1333 South Valley Grove Way, Ste 500
+Pleasant Grove, Utah 84062
+United States",accounting@costavida.com,USD,60000.0,All fees are due Net 30 days from invoice date,All fees are due Net 30 days from invoice date,Upfront,Monthly in Arrears,Standard,AWS,US-East,USD,1.88,USD,23.0,Tier 1,511064EE-913A-47EF-8F55-8675FEBAB947
