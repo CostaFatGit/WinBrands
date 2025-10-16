@@ -1,0 +1,494 @@
+DEB [20250327-17:43:04.706] thr=1   paramiko.transport: starting thread (client mode): 0x1dcfe330
+DEB [20250327-17:43:04.706] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250327-17:43:04.749] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250327-17:43:04.751] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250327-17:43:04.751] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250327-17:43:04.751] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250327-17:43:04.760] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250327-17:43:04.760] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250327-17:43:04.760] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport: 
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport: 
+ERR [20250327-17:43:04.761] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250327-17:43:04.762] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250327-17:43:04.762] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250327-17:43:04.762] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250327-17:43:04.762] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250327-17:43:04.762] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250327-17:43:04.762] thr=1   paramiko.transport: 
+DEB [20250330-10:15:36.755] thr=1   paramiko.transport: starting thread (client mode): 0x75248e30
+DEB [20250330-10:15:36.756] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250330-10:15:36.781] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:15:36.808] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250330-10:15:36.809] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250330-10:15:36.809] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250330-10:15:36.809] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:15:36.809] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250330-10:15:36.809] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250330-10:15:36.809] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:15:36.809] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport: 
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport: 
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250330-10:15:36.810] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250330-10:15:36.811] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250330-10:15:36.811] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250330-10:15:36.811] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:15:36.811] thr=1   paramiko.transport: 
+DEB [20250330-10:24:59.332] thr=1   paramiko.transport: starting thread (client mode): 0x5e33d70
+DEB [20250330-10:24:59.332] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250330-10:24:59.338] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:24:59.340] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250330-10:24:59.340] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250330-10:24:59.341] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250330-10:24:59.341] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:24:59.341] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250330-10:24:59.341] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250330-10:24:59.341] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:24:59.341] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250330-10:24:59.341] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport: 
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport: 
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250330-10:24:59.342] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250330-10:24:59.343] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250330-10:24:59.343] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:24:59.343] thr=1   paramiko.transport: 
+DEB [20250330-10:26:10.813] thr=1   paramiko.transport: starting thread (client mode): 0x83309c40
+DEB [20250330-10:26:10.813] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250330-10:26:10.840] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:26:10.842] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250330-10:26:10.842] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250330-10:26:10.842] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250330-10:26:10.843] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:26:10.843] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250330-10:26:10.843] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250330-10:26:10.843] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:26:10.843] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250330-10:26:10.843] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250330-10:26:10.843] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250330-10:26:10.843] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport: 
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport: 
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250330-10:26:10.844] thr=1   paramiko.transport: 
+DEB [20250331-08:24:26.538] thr=1   paramiko.transport: starting thread (client mode): 0x9aba42f0
+DEB [20250331-08:24:26.538] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEB [20250331-08:24:26.661] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-AWS_SFTP_1.1
+INF [20250331-08:24:26.661] thr=1   paramiko.transport: Connected (version 2.0, client AWS_SFTP_1.1)
+DEB [20250331-08:24:26.688] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20250331-08:24:26.688] thr=1   paramiko.transport: kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEB [20250331-08:24:26.688] thr=1   paramiko.transport: server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+DEB [20250331-08:24:26.688] thr=1   paramiko.transport: client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-08:24:26.688] thr=1   paramiko.transport: server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-08:24:26.688] thr=1   paramiko.transport: client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-08:24:26.688] thr=1   paramiko.transport: server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-08:24:26.689] thr=1   paramiko.transport: client compress: none, zlib@openssh.com
+DEB [20250331-08:24:26.689] thr=1   paramiko.transport: server compress: none, zlib@openssh.com
+DEB [20250331-08:24:26.689] thr=1   paramiko.transport: client lang: <none>
+DEB [20250331-08:24:26.689] thr=1   paramiko.transport: server lang: <none>
+DEB [20250331-08:24:26.689] thr=1   paramiko.transport: kex follows: False
+DEB [20250331-08:24:26.689] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20250331-08:24:26.690] thr=1   paramiko.transport: Kex: curve25519-sha256@libssh.org
+DEB [20250331-08:24:26.690] thr=1   paramiko.transport: HostKey: rsa-sha2-512
+DEB [20250331-08:24:26.690] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20250331-08:24:26.690] thr=1   paramiko.transport: MAC: hmac-sha2-256
+DEB [20250331-08:24:26.690] thr=1   paramiko.transport: Compression: none
+DEB [20250331-08:24:26.690] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20250331-08:24:26.754] thr=1   paramiko.transport: kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEB [20250331-08:24:26.755] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20250331-08:24:26.755] thr=2   paramiko.transport: Adding ssh-rsa host key for sftp.olo.com: b'a3f8a5379f79e9cb8b7ea38499a14e15'
+DEB [20250331-08:24:26.755] thr=1   paramiko.transport: Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+DEB [20250331-08:24:26.755] thr=2   paramiko.transport: Trying SSH key b'd6723fb36bbd51c245ab6ac1a1a22da5'
+DEB [20250331-08:24:26.870] thr=1   paramiko.transport: userauth is OK
+DEB [20250331-08:24:26.870] thr=1   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20250331-08:24:26.870] thr=1   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20250331-08:24:26.870] thr=1   paramiko.transport: Server-side algorithm list: ['ssh-ed25519', 'sk-ssh-ed25519@openssh.com', 'ssh-rsa', 'rsa-sha2-256', 'rsa-sha2-512', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', 'sk-ecdsa-sha2-nistp256@openssh.com', 'webauthn-sk-ecdsa-sha2-nistp256@openssh.com']
+DEB [20250331-08:24:26.870] thr=1   paramiko.transport: Agreed upon 'rsa-sha2-512' pubkey algorithm
+INF [20250331-08:24:26.962] thr=1   paramiko.transport: Authentication (publickey) successful!
+DEB [20250331-08:24:26.963] thr=1   paramiko.transport: Received global request "hostkeys-00@openssh.com"
+DEB [20250331-08:24:26.963] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20250331-08:24:26.963] thr=1   paramiko.transport: Rejecting "hostkeys-00@openssh.com" global request from server.
+DEB [20250331-08:24:26.963] thr=1   paramiko.transport: Debug msg: b'SFTP: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding'
+DEB [20250331-08:24:27.008] thr=1   paramiko.transport: [chan 0] Max packet out: 32768 bytes
+DEB [20250331-08:24:27.008] thr=1   paramiko.transport: Secsh channel 0 opened.
+DEB [20250331-08:24:27.059] thr=1   paramiko.transport: [chan 0] Sesch channel 0 request ok
+INF [20250331-08:24:27.210] thr=2   paramiko.transport.sftp: [chan 0] Opened sftp connection (server version 3)
+DEB [20250331-08:24:27.210] thr=2   paramiko.transport.sftp: [chan 0] listdir(b'.')
+INF [20250331-08:24:27.522] thr=2   paramiko.transport.sftp: [chan 0] sftp session closed.
+DEB [20250331-08:24:27.522] thr=2   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20250331-08:24:27.522] thr=1   paramiko.transport: EOF in transport thread
+DEB [20250331-08:26:20.895] thr=1   paramiko.transport: starting thread (client mode): 0xd8deb2f0
+DEB [20250331-08:26:20.895] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250331-08:26:20.919] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:26:20.920] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:26:20.921] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250331-08:26:20.921] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250331-08:26:20.921] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:26:20.921] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250331-08:26:20.921] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250331-08:26:20.921] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:26:20.921] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250331-08:26:20.922] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250331-08:26:20.922] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:26:20.922] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:26:20.922] thr=1   paramiko.transport: 
+ERR [20250331-08:26:20.922] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250331-08:26:20.922] thr=1   paramiko.transport: 
+ERR [20250331-08:26:20.922] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:26:20.922] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250331-08:26:20.923] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250331-08:26:20.923] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250331-08:26:20.923] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250331-08:26:20.923] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:26:20.923] thr=1   paramiko.transport: 
+DEB [20250331-08:31:22.911] thr=1   paramiko.transport: starting thread (client mode): 0xd2ce42f0
+DEB [20250331-08:31:22.911] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250331-08:31:22.915] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:31:22.916] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:31:22.916] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250331-08:31:22.917] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250331-08:31:22.917] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:31:22.917] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250331-08:31:22.917] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250331-08:31:22.917] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:31:22.917] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250331-08:31:22.917] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250331-08:31:22.917] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport: 
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport: 
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250331-08:31:22.918] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250331-08:31:22.919] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:31:22.919] thr=1   paramiko.transport: 
+DEB [20250331-08:35:28.227] thr=1   paramiko.transport: starting thread (client mode): 0x769d42f0
+DEB [20250331-08:35:28.228] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEB [20250331-08:35:28.359] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-AWS_SFTP_1.1
+INF [20250331-08:35:28.359] thr=1   paramiko.transport: Connected (version 2.0, client AWS_SFTP_1.1)
+DEB [20250331-08:35:28.376] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20250331-08:35:28.377] thr=1   paramiko.transport: kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEB [20250331-08:35:28.377] thr=1   paramiko.transport: server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+DEB [20250331-08:35:28.378] thr=1   paramiko.transport: client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-08:35:28.378] thr=1   paramiko.transport: server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-08:35:28.378] thr=1   paramiko.transport: client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-08:35:28.378] thr=1   paramiko.transport: server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-08:35:28.378] thr=1   paramiko.transport: client compress: none, zlib@openssh.com
+DEB [20250331-08:35:28.378] thr=1   paramiko.transport: server compress: none, zlib@openssh.com
+DEB [20250331-08:35:28.378] thr=1   paramiko.transport: client lang: <none>
+DEB [20250331-08:35:28.378] thr=1   paramiko.transport: server lang: <none>
+DEB [20250331-08:35:28.379] thr=1   paramiko.transport: kex follows: False
+DEB [20250331-08:35:28.379] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20250331-08:35:28.379] thr=1   paramiko.transport: Kex: curve25519-sha256@libssh.org
+DEB [20250331-08:35:28.379] thr=1   paramiko.transport: HostKey: rsa-sha2-512
+DEB [20250331-08:35:28.379] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20250331-08:35:28.379] thr=1   paramiko.transport: MAC: hmac-sha2-256
+DEB [20250331-08:35:28.379] thr=1   paramiko.transport: Compression: none
+DEB [20250331-08:35:28.379] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20250331-08:35:28.475] thr=1   paramiko.transport: kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEB [20250331-08:35:28.475] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20250331-08:35:28.476] thr=2   paramiko.transport: Adding ssh-rsa host key for sftp.olo.com: b'a3f8a5379f79e9cb8b7ea38499a14e15'
+DEB [20250331-08:35:28.476] thr=1   paramiko.transport: Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+DEB [20250331-08:35:28.476] thr=2   paramiko.transport: Trying SSH key b'd6723fb36bbd51c245ab6ac1a1a22da5'
+DEB [20250331-08:35:28.596] thr=1   paramiko.transport: userauth is OK
+DEB [20250331-08:35:28.597] thr=1   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20250331-08:35:28.597] thr=1   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20250331-08:35:28.597] thr=1   paramiko.transport: Server-side algorithm list: ['ssh-ed25519', 'sk-ssh-ed25519@openssh.com', 'ssh-rsa', 'rsa-sha2-256', 'rsa-sha2-512', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', 'sk-ecdsa-sha2-nistp256@openssh.com', 'webauthn-sk-ecdsa-sha2-nistp256@openssh.com']
+DEB [20250331-08:35:28.597] thr=1   paramiko.transport: Agreed upon 'rsa-sha2-512' pubkey algorithm
+INF [20250331-08:35:28.675] thr=1   paramiko.transport: Authentication (publickey) successful!
+DEB [20250331-08:35:28.676] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20250331-08:35:28.685] thr=1   paramiko.transport: Received global request "hostkeys-00@openssh.com"
+DEB [20250331-08:35:28.685] thr=1   paramiko.transport: Rejecting "hostkeys-00@openssh.com" global request from server.
+DEB [20250331-08:35:28.686] thr=1   paramiko.transport: Debug msg: b'SFTP: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding'
+DEB [20250331-08:35:28.727] thr=1   paramiko.transport: [chan 0] Max packet out: 32768 bytes
+DEB [20250331-08:35:28.728] thr=1   paramiko.transport: Secsh channel 0 opened.
+DEB [20250331-08:35:28.788] thr=1   paramiko.transport: [chan 0] Sesch channel 0 request ok
+INF [20250331-08:35:28.929] thr=2   paramiko.transport.sftp: [chan 0] Opened sftp connection (server version 3)
+DEB [20250331-08:35:28.929] thr=2   paramiko.transport.sftp: [chan 0] listdir(b'.')
+INF [20250331-08:35:29.250] thr=2   paramiko.transport.sftp: [chan 0] sftp session closed.
+DEB [20250331-08:35:29.250] thr=2   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20250331-08:35:29.250] thr=1   paramiko.transport: EOF in transport thread
+DEB [20250331-08:37:19.918] thr=1   paramiko.transport: starting thread (client mode): 0x641242f0
+DEB [20250331-08:37:19.918] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250331-08:37:19.958] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:37:19.960] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:37:19.960] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250331-08:37:19.961] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250331-08:37:19.961] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:37:19.961] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250331-08:37:19.961] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250331-08:37:19.961] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:37:19.961] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250331-08:37:19.961] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250331-08:37:19.962] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:37:19.962] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:37:19.962] thr=1   paramiko.transport: 
+ERR [20250331-08:37:19.962] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250331-08:37:19.962] thr=1   paramiko.transport: 
+ERR [20250331-08:37:19.962] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:37:19.962] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250331-08:37:19.962] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250331-08:37:19.963] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250331-08:37:19.963] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250331-08:37:19.963] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:37:19.963] thr=1   paramiko.transport: 
+DEB [20250331-08:38:31.489] thr=1   paramiko.transport: starting thread (client mode): 0x44aacbc0
+DEB [20250331-08:38:31.489] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250331-08:38:31.520] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:38:31.522] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:38:31.522] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250331-08:38:31.522] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250331-08:38:31.522] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:38:31.523] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250331-08:38:31.523] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250331-08:38:31.523] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:38:31.523] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250331-08:38:31.524] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250331-08:38:31.524] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:38:31.524] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:38:31.524] thr=1   paramiko.transport: 
+ERR [20250331-08:38:31.524] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250331-08:38:31.524] thr=1   paramiko.transport: 
+ERR [20250331-08:38:31.524] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:38:31.525] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250331-08:38:31.525] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250331-08:38:31.525] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250331-08:38:31.525] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250331-08:38:31.525] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:38:31.525] thr=1   paramiko.transport: 
+DEB [20250331-08:38:35.063] thr=1   paramiko.transport: starting thread (client mode): 0x736b42f0
+DEB [20250331-08:38:35.063] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250331-08:38:35.118] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:38:35.120] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:38:35.120] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250331-08:38:35.120] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250331-08:38:35.120] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:38:35.120] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250331-08:38:35.121] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250331-08:38:35.121] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:38:35.121] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250331-08:38:35.121] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250331-08:38:35.121] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:38:35.121] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:38:35.121] thr=1   paramiko.transport: 
+ERR [20250331-08:38:35.121] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250331-08:38:35.123] thr=1   paramiko.transport: 
+ERR [20250331-08:38:35.123] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:38:35.123] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250331-08:38:35.123] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250331-08:38:35.123] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250331-08:38:35.123] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250331-08:38:35.123] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:38:35.123] thr=1   paramiko.transport: 
+DEB [20250331-08:38:38.184] thr=1   paramiko.transport: starting thread (client mode): 0xfc1742f0
+DEB [20250331-08:38:38.185] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEB [20250331-08:38:38.292] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-AWS_SFTP_1.1
+INF [20250331-08:38:38.292] thr=1   paramiko.transport: Connected (version 2.0, client AWS_SFTP_1.1)
+DEB [20250331-08:38:38.300] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20250331-08:38:38.300] thr=1   paramiko.transport: kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEB [20250331-08:38:38.300] thr=1   paramiko.transport: server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+DEB [20250331-08:38:38.300] thr=1   paramiko.transport: client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-08:38:38.301] thr=1   paramiko.transport: server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-08:38:38.301] thr=1   paramiko.transport: client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-08:38:38.301] thr=1   paramiko.transport: server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-08:38:38.301] thr=1   paramiko.transport: client compress: none, zlib@openssh.com
+DEB [20250331-08:38:38.301] thr=1   paramiko.transport: server compress: none, zlib@openssh.com
+DEB [20250331-08:38:38.301] thr=1   paramiko.transport: client lang: <none>
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: server lang: <none>
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: kex follows: False
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: Kex: curve25519-sha256@libssh.org
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: HostKey: rsa-sha2-512
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: MAC: hmac-sha2-256
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: Compression: none
+DEB [20250331-08:38:38.302] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20250331-08:38:38.391] thr=1   paramiko.transport: kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEB [20250331-08:38:38.392] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20250331-08:38:38.392] thr=2   paramiko.transport: Adding ssh-rsa host key for sftp.olo.com: b'a3f8a5379f79e9cb8b7ea38499a14e15'
+DEB [20250331-08:38:38.392] thr=1   paramiko.transport: Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+DEB [20250331-08:38:38.393] thr=2   paramiko.transport: Trying SSH key b'd6723fb36bbd51c245ab6ac1a1a22da5'
+DEB [20250331-08:38:38.533] thr=1   paramiko.transport: userauth is OK
+DEB [20250331-08:38:38.534] thr=1   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20250331-08:38:38.534] thr=1   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20250331-08:38:38.534] thr=1   paramiko.transport: Server-side algorithm list: ['ssh-ed25519', 'sk-ssh-ed25519@openssh.com', 'ssh-rsa', 'rsa-sha2-256', 'rsa-sha2-512', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', 'sk-ecdsa-sha2-nistp256@openssh.com', 'webauthn-sk-ecdsa-sha2-nistp256@openssh.com']
+DEB [20250331-08:38:38.534] thr=1   paramiko.transport: Agreed upon 'rsa-sha2-512' pubkey algorithm
+INF [20250331-08:38:38.625] thr=1   paramiko.transport: Authentication (publickey) successful!
+DEB [20250331-08:38:38.625] thr=1   paramiko.transport: Received global request "hostkeys-00@openssh.com"
+DEB [20250331-08:38:38.625] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20250331-08:38:38.625] thr=1   paramiko.transport: Rejecting "hostkeys-00@openssh.com" global request from server.
+DEB [20250331-08:38:38.625] thr=1   paramiko.transport: Debug msg: b'SFTP: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding'
+DEB [20250331-08:38:38.676] thr=1   paramiko.transport: [chan 0] Max packet out: 32768 bytes
+DEB [20250331-08:38:38.677] thr=1   paramiko.transport: Secsh channel 0 opened.
+DEB [20250331-08:38:38.717] thr=1   paramiko.transport: [chan 0] Sesch channel 0 request ok
+INF [20250331-08:38:38.869] thr=2   paramiko.transport.sftp: [chan 0] Opened sftp connection (server version 3)
+DEB [20250331-08:38:38.870] thr=2   paramiko.transport.sftp: [chan 0] listdir(b'.')
+INF [20250331-08:38:39.245] thr=2   paramiko.transport.sftp: [chan 0] sftp session closed.
+DEB [20250331-08:38:39.246] thr=2   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20250331-08:38:39.246] thr=1   paramiko.transport: EOF in transport thread
+DEB [20250331-08:39:11.408] thr=1   paramiko.transport: starting thread (client mode): 0x27dd42f0
+DEB [20250331-08:39:11.409] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250331-08:39:11.440] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:39:11.442] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:39:11.442] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250331-08:39:11.442] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250331-08:39:11.442] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:39:11.442] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250331-08:39:11.442] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250331-08:39:11.442] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport: 
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport: 
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250331-08:39:11.443] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250331-08:39:11.445] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250331-08:39:11.445] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:39:11.445] thr=1   paramiko.transport: 
+DEB [20250331-08:39:19.495] thr=1   paramiko.transport: starting thread (client mode): 0x2ebbcbc0
+DEB [20250331-08:39:19.495] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+ERR [20250331-08:39:19.509] thr=1   paramiko.transport: Exception (client): Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:39:19.510] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:39:19.510] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2369, in _check_banner
+ERR [20250331-08:39:19.511] thr=1   paramiko.transport:     buf = self.packetizer.readline(timeout)
+ERR [20250331-08:39:19.511] thr=1   paramiko.transport:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:39:19.511] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 395, in readline
+ERR [20250331-08:39:19.511] thr=1   paramiko.transport:     buf += self._read_timeout(timeout)
+ERR [20250331-08:39:19.511] thr=1   paramiko.transport:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:39:19.511] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\packet.py", line 663, in _read_timeout
+ERR [20250331-08:39:19.512] thr=1   paramiko.transport:     x = self.__socket.recv(128)
+ERR [20250331-08:39:19.512] thr=1   paramiko.transport:         ^^^^^^^^^^^^^^^^^^^^^^^
+ERR [20250331-08:39:19.512] thr=1   paramiko.transport: ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:39:19.512] thr=1   paramiko.transport: 
+ERR [20250331-08:39:19.512] thr=1   paramiko.transport: During handling of the above exception, another exception occurred:
+ERR [20250331-08:39:19.513] thr=1   paramiko.transport: 
+ERR [20250331-08:39:19.513] thr=1   paramiko.transport: Traceback (most recent call last):
+ERR [20250331-08:39:19.513] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2185, in run
+ERR [20250331-08:39:19.513] thr=1   paramiko.transport:     self._check_banner()
+ERR [20250331-08:39:19.513] thr=1   paramiko.transport:   File "c:\Repos\RHO\.venv\Lib\site-packages\paramiko\transport.py", line 2373, in _check_banner
+ERR [20250331-08:39:19.513] thr=1   paramiko.transport:     raise SSHException(
+ERR [20250331-08:39:19.513] thr=1   paramiko.transport: paramiko.ssh_exception.SSHException: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+ERR [20250331-08:39:19.513] thr=1   paramiko.transport: 
+DEB [20250331-08:39:21.073] thr=1   paramiko.transport: starting thread (client mode): 0xb06dd190
+DEB [20250331-08:39:21.074] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEB [20250331-08:39:21.210] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-AWS_SFTP_1.1
+INF [20250331-08:39:21.210] thr=1   paramiko.transport: Connected (version 2.0, client AWS_SFTP_1.1)
+DEB [20250331-08:39:21.220] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20250331-08:39:21.221] thr=1   paramiko.transport: kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEB [20250331-08:39:21.221] thr=1   paramiko.transport: server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+DEB [20250331-08:39:21.222] thr=1   paramiko.transport: client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-08:39:21.222] thr=1   paramiko.transport: server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-08:39:21.222] thr=1   paramiko.transport: client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-08:39:21.222] thr=1   paramiko.transport: server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: client compress: none, zlib@openssh.com
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: server compress: none, zlib@openssh.com
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: client lang: <none>
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: server lang: <none>
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: kex follows: False
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: Kex: curve25519-sha256@libssh.org
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: HostKey: rsa-sha2-512
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: MAC: hmac-sha2-256
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: Compression: none
+DEB [20250331-08:39:21.223] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20250331-08:39:21.335] thr=1   paramiko.transport: kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEB [20250331-08:39:21.335] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20250331-08:39:21.336] thr=2   paramiko.transport: Adding ssh-rsa host key for sftp.olo.com: b'a3f8a5379f79e9cb8b7ea38499a14e15'
+DEB [20250331-08:39:21.336] thr=1   paramiko.transport: Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+DEB [20250331-08:39:21.336] thr=2   paramiko.transport: Trying SSH key b'd6723fb36bbd51c245ab6ac1a1a22da5'
+DEB [20250331-08:39:21.498] thr=1   paramiko.transport: userauth is OK
+DEB [20250331-08:39:21.498] thr=1   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20250331-08:39:21.499] thr=1   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20250331-08:39:21.499] thr=1   paramiko.transport: Server-side algorithm list: ['ssh-ed25519', 'sk-ssh-ed25519@openssh.com', 'ssh-rsa', 'rsa-sha2-256', 'rsa-sha2-512', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', 'sk-ecdsa-sha2-nistp256@openssh.com', 'webauthn-sk-ecdsa-sha2-nistp256@openssh.com']
+DEB [20250331-08:39:21.499] thr=1   paramiko.transport: Agreed upon 'rsa-sha2-512' pubkey algorithm
+INF [20250331-08:39:21.605] thr=1   paramiko.transport: Authentication (publickey) successful!
+DEB [20250331-08:39:21.606] thr=1   paramiko.transport: Received global request "hostkeys-00@openssh.com"
+DEB [20250331-08:39:21.606] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20250331-08:39:21.606] thr=1   paramiko.transport: Rejecting "hostkeys-00@openssh.com" global request from server.
+DEB [20250331-08:39:21.606] thr=1   paramiko.transport: Debug msg: b'SFTP: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding'
+DEB [20250331-08:39:21.659] thr=1   paramiko.transport: [chan 0] Max packet out: 32768 bytes
+DEB [20250331-08:39:21.659] thr=1   paramiko.transport: Secsh channel 0 opened.
+DEB [20250331-08:39:21.712] thr=1   paramiko.transport: [chan 0] Sesch channel 0 request ok
+INF [20250331-08:39:21.862] thr=2   paramiko.transport.sftp: [chan 0] Opened sftp connection (server version 3)
+DEB [20250331-08:39:21.862] thr=2   paramiko.transport.sftp: [chan 0] listdir(b'.')
+INF [20250331-08:39:22.262] thr=2   paramiko.transport.sftp: [chan 0] sftp session closed.
+DEB [20250331-08:39:22.262] thr=2   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20250331-08:39:22.262] thr=1   paramiko.transport: EOF in transport thread
+DEB [20250331-09:52:48.338] thr=1   paramiko.transport: starting thread (client mode): 0x8466bd10
+DEB [20250331-09:52:48.339] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEB [20250331-09:52:48.456] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-AWS_SFTP_1.1
+INF [20250331-09:52:48.456] thr=1   paramiko.transport: Connected (version 2.0, client AWS_SFTP_1.1)
+DEB [20250331-09:52:48.458] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20250331-09:52:48.458] thr=1   paramiko.transport: kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEB [20250331-09:52:48.458] thr=1   paramiko.transport: server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+DEB [20250331-09:52:48.458] thr=1   paramiko.transport: client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-09:52:48.458] thr=1   paramiko.transport: server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEB [20250331-09:52:48.458] thr=1   paramiko.transport: client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: client compress: none, zlib@openssh.com
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: server compress: none, zlib@openssh.com
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: client lang: <none>
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: server lang: <none>
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: kex follows: False
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: Kex: curve25519-sha256@libssh.org
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: HostKey: rsa-sha2-512
+DEB [20250331-09:52:48.464] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20250331-09:52:48.465] thr=1   paramiko.transport: MAC: hmac-sha2-256
+DEB [20250331-09:52:48.465] thr=1   paramiko.transport: Compression: none
+DEB [20250331-09:52:48.465] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20250331-09:52:48.542] thr=1   paramiko.transport: kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEB [20250331-09:52:48.542] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20250331-09:52:48.542] thr=2   paramiko.transport: Adding ssh-rsa host key for sftp.olo.com: b'a3f8a5379f79e9cb8b7ea38499a14e15'
+DEB [20250331-09:52:48.542] thr=1   paramiko.transport: Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,sk-ssh-ed25519@openssh.com,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,webauthn-sk-ecdsa-sha2-nistp256@openssh.com'}
+DEB [20250331-09:52:48.542] thr=2   paramiko.transport: Trying SSH key b'd6723fb36bbd51c245ab6ac1a1a22da5'
+DEB [20250331-09:52:48.671] thr=1   paramiko.transport: userauth is OK
+DEB [20250331-09:52:48.672] thr=1   paramiko.transport: Finalizing pubkey algorithm for key of type 'ssh-rsa'
+DEB [20250331-09:52:48.672] thr=1   paramiko.transport: Our pubkey algorithm list: ['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa']
+DEB [20250331-09:52:48.672] thr=1   paramiko.transport: Server-side algorithm list: ['ssh-ed25519', 'sk-ssh-ed25519@openssh.com', 'ssh-rsa', 'rsa-sha2-256', 'rsa-sha2-512', 'ssh-dss', 'ecdsa-sha2-nistp256', 'ecdsa-sha2-nistp384', 'ecdsa-sha2-nistp521', 'sk-ecdsa-sha2-nistp256@openssh.com', 'webauthn-sk-ecdsa-sha2-nistp256@openssh.com']
+DEB [20250331-09:52:48.673] thr=1   paramiko.transport: Agreed upon 'rsa-sha2-512' pubkey algorithm
+INF [20250331-09:52:48.763] thr=1   paramiko.transport: Authentication (publickey) successful!
+DEB [20250331-09:52:48.764] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20250331-09:52:48.764] thr=1   paramiko.transport: Received global request "hostkeys-00@openssh.com"
+DEB [20250331-09:52:48.764] thr=1   paramiko.transport: Rejecting "hostkeys-00@openssh.com" global request from server.
+DEB [20250331-09:52:48.765] thr=1   paramiko.transport: Debug msg: b'SFTP: key options: agent-forwarding port-forwarding pty user-rc x11-forwarding'
+DEB [20250331-09:52:48.808] thr=1   paramiko.transport: [chan 0] Max packet out: 32768 bytes
+DEB [20250331-09:52:48.808] thr=1   paramiko.transport: Secsh channel 0 opened.
+DEB [20250331-09:52:48.849] thr=1   paramiko.transport: [chan 0] Sesch channel 0 request ok
+INF [20250331-09:52:48.995] thr=2   paramiko.transport.sftp: [chan 0] Opened sftp connection (server version 3)
+DEB [20250331-09:52:48.995] thr=2   paramiko.transport.sftp: [chan 0] listdir(b'.')
+INF [20250331-09:52:49.323] thr=2   paramiko.transport.sftp: [chan 0] sftp session closed.
+DEB [20250331-09:52:49.323] thr=2   paramiko.transport: [chan 0] EOF sent (0)
+DEB [20250331-09:52:49.324] thr=1   paramiko.transport: EOF in transport thread
